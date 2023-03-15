@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Students Doubts </title>
+    <link rel="stylesheet" href="style.css"> 
+
+    <link rel="stylesheet" href="proceed.css"> 
+    
+    <link rel="stylesheet" href="ask button.css"> 
+
+    <style>
+    body{
+        background: url(img3.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+        <h1> ASK-ME! </h1> 
+    </div>
+
+    <!-- -------------NAVBAR----------------- -->
+    <div class="header">
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li> <a href="#">Home</a> </li>
+                    <li> <a href="aboutus.html">About Us</a> </li>
+                    <li> <a href="signin.html">Sign in</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+
+    <main>
+        <form action="#" class="ask">
+
+                <div class="box-21"> 
+                    <a href="ask button.html" class="askq-btn" width="100px">Ask question</a>
+                    <a href="recent button.html" class="recent-btn" width="100px">Recent question</a>
+                    <a href="vote button.html" class="vote-btn">Vote on everything</a>
+                    <a href="answer button.html" class="reply-btn">Answer question</a>
+                    <a href="accept button.html" class="accept-btn">Accept an answer</a> 
+                </div> 
+
+
+            <div class="box-6">
+                <div class="ask-box">
+                    <h4 style="padding-top: 32px"> Name* </h4> 
+                    <input type="text" class="input" placeholder="Write your Name"> 
+        
+                    <h4> Question Title* </h4>
+                    <input type="text" name="title" id="n" class="input" placeholder="What's your question?"> 
+                    <p id="pg1"> Please choose an appropriate title for the question so it can be answered easily</p>
+        
+                    <h4> Category* </h4> 
+                        <p id="pg5">
+                            <select name="category" style="width: 679px" id="cat">
+                            <option value="select a category"> Select a Category </option>
+                            <option value="communication"> Communication </option>
+                            <option value="analytics"> Analytics </option>
+                            <option value="company"> Company </option>
+                            <option value="language"> Language </option>
+                            <option value="management"> Management </option>
+                            <option value="programmers "> Programmers </option>
+                            <option value="university"> University </option>
+                            <option value="programs"> Programs </option>
+                            </select>
+                        </p>
+                    <p id="pg2"> Please choose the appropriate section so question can be searched easily</p>
+
+                    <h4> Tags </h4>
+                    <input type="text" class="input"> 
+                    <p id="pg3"> at least one tag, max 5 tags</p> 
+
+                    <h4> Description* </h4>
+                    <textarea name="Help" id="101" rows="7" cols="69" style="margin-left: 24px"></textarea> 
+                    
+                    <br><br><br>
+                    <button class="post-btn"> Post your Question </button>
+
+                </div>
+            </div>        
+        </form>
+    </main>
+ <script src="bundle.js" defer></script>
+</body>
+</html>

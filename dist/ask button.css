@@ -1,0 +1,129 @@
+.box-21{
+    background-color: rgb(248, 209, 215);
+    height: 0px;
+    margin-top: 50px;
+    margin-left: 250px;
+} 
+
+.askq-btn{
+    text-align: center;
+    width: 90px;
+    height: 34px;
+    background-color: darkorange;
+    color: white;
+    outline: none;
+    border: 0;
+    font-size: 20px;
+    margin-left: 15px;
+    padding: 4px 8px;
+    box-shadow: 2px -2px 8px rgb(238, 191, 105);
+}
+
+.recent-btn{
+    text-align: center;
+    width: 90px;
+    height: 34px;
+    background-color: darkorange;
+    color: white;
+    outline: none;
+    border: 0;
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 4px 8px;
+    box-shadow: 2px -2px 8px rgb(238, 191, 105);
+}
+
+.vote-btn{
+    text-align: center;
+    width: 90px;
+    height: 34px;
+    background-color: darkorange;
+    color: white;
+    outline: none;
+    border: 0;
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 4px 3px;
+    box-shadow: 2px -2px 8px rgb(238, 191, 105);
+}
+
+.reply-btn{
+    text-align: center;
+    width: 90px;
+    height: 34px;
+    background-color: darkorange;
+    color: white;
+    outline: none;
+    border: 0;
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 4px 4px;
+    box-shadow: 2px -2px 8px rgb(238, 191, 105);
+}
+
+.accept-btn{
+    text-align: center;
+    width: 90px;
+    height: 34px;
+    background-color: darkorange;
+    color: white;
+    outline: none;
+    border: 0;
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 4px 5px;
+    box-shadow: 2px -2px 8px rgb(238, 191, 105);
+}
+
+
+.ask-box{
+    background-color: rgb(195, 195, 245);
+    width: 730px;
+    height: 750px;
+    margin-top: 50px;
+    margin-left: 288px;
+}
+
+h4{
+    margin-left: 24px;
+}
+
+.input{
+    margin-left: 24px;
+    width: 670px;
+    height: 27px;
+}
+
+#pg1{
+    margin-left: 24px;
+    font-size: 11px;
+}
+
+#pg2{
+    margin-left: 24px;
+    font-size: 11px;
+}
+
+#pg3{
+    margin-left: 24px;
+    font-size: 11px;
+}
+
+#pg5{
+    margin-left: 24px;
+}
+
+.post-btn{
+    color: white;
+    background: black;
+    font-size: 15px;
+    margin-left: 24px;
+    outline: none;
+    border: 0;
+    width: 160px;
+    height: 30px;
+}
+
+.post-btn:hover{
+    background: rgb(36, 34, 34);
+}

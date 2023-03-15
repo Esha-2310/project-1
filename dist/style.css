@@ -1,0 +1,152 @@
+.head{
+    color: black;
+    margin-left: 18px;
+    padding-top: 80px;
+}
+
+h1{
+    font-size: 28px;
+    text-transform: capitalize;
+    color: blue;
+    text-decoration: underline;
+    margin-top: -79px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: fixed;
+}
+
+
+/* ---------------NAVBAR-------------------- */
+.navbar{
+    text-align: center; 
+    margin-top: 10px; 
+
+}   
+
+nav{
+    text-align: right;  
+    height: 48px;
+    width: 100%;
+    color: black;
+    position: fixed;
+    margin-top: -52px; 
+    border: rgba(128, 128, 128, 0.116);
+    margin-left: -10px;
+    background-color: rgba(128, 128, 128, 0.116);
+
+}
+
+nav ul{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li{
+    margin-right: 85px;  
+    display: inline-block;
+    font-size: 25px;
+    padding: auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 29px;
+    font-style: bold;
+}
+
+
+/* ----------HEADING---------------  */
+h2{
+    margin-left: 120px;
+    margin-top: 100px;
+    font-size: 50px;
+    font-family: sans-serif, Arial;
+}
+    p{
+    margin-left: 120px;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif, Arial;
+}
+
+.btn{
+    color: white;
+    background: rgb(255, 69, 1);
+    padding: 10px 25px;
+    display: inline-block;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 160px;
+    margin-left:120px;
+    margin-right:120px;
+
+}
+.btn:hover{
+    color: white;
+    background: rgb(250, 105, 52);
+}
+#table{
+    margin: 30px 30px;
+    border-width: 1px;
+    border-color: rgb(200, 245, 220);
+    border-style: solid;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(26, 29, 32);
+}
+
+body{
+    background-color: rgb(194, 153, 233);
+}
+
+.heading{
+    font-size: 30px;
+}
+
+
+
+
+/* ---------------FOOTER------------ */
+.footer-1{
+    background-color: rgb(43, 42, 42);
+    width: 1360px;
+    height: 230px;
+    margin: -20px;
+}
+
+#para20{
+    font-size: 12px; 
+    color: white;
+    text-align: left;
+    padding-top: 70px;
+    margin-left: 140px;
+}
+
+.footer-2{
+    font-size: 13px;
+    color: gray;
+    margin-left: 430px;
+    margin-top: -90px;
+}
+
+.footer-3{
+    font-size: 13px;
+    color: gray;
+    margin-left: 630px;
+    margin-top: -116px;
+}
+
+.footer-4{
+    font-size: 13px;
+    color: gray;
+    margin-left: 830px;
+    margin-top: -100px;
+}
+
+.footer-5{
+    font-size: 13px;
+    color: gray;
+    margin-left: 1040px;
+    margin-top: -87px;
+}

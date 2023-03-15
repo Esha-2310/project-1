@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Students Doubts </title>
+    <link rel="stylesheet" href="style.css"> 
+
+    <style>
+    body{
+        background: url(img3.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+    </style>
+    
+</head>
+
+<body>
+    <div class="head">
+        <h1> ASK-ME!</h1> 
+    </div>
+
+    <!-- -------------NAVBAR----------------- -->
+    <div class="header">
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li> <a href="index.html">Home</a> </li>
+                    <li> <a href="aboutus.html">About Us</a> </li>
+                    <li> <a href="signin.html">Sign in</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+
+<!-- -----------HEADINGS----------- -->
+<div class="container">
+    <h2> <span>Unlimited ,</span>
+        <span> surveys </span>
+         <span> and </span>
+          <span>insights.</span> 
+        </h2>
+    <p>
+        Reason can answer questions,but imagination has to ask them.
+    </p>
+</div>
+
+<script>
+    async function callApi(){
+         let result = await fetch('https://script.google.com/macros/s/AKfycbz-FBfoOU60Zxzu0kTRreoWyW7a_wAT5z5fPDkmdBohniWmXNgI2Qu9_8hsE8SRQikx/exec');
+         result = await result.json()
+         console.warn(result)
+         document.getElementById('userData').innerHTML=result.data
+         .map((user)=>
+             `<tr>
+                 <td>${user.Questions}</td>                                      
+             </tr>`
+         ).join("");
+    }
+
+     callApi()
+ </script>
+
+<a href="askques.html" class="btn">Ask Question</a>
+ <table align="center" id="table">
+     <thead>
+         <tr>
+             <th class="heading">Frequently Asked Questions</th>                    
+         </tr>
+     </thead>
+     <tbody id="userData">
+     </tbody>
+ </table>
+
+ 
+
+
+<br><br><br><br><br><br><br><br><br><br>
+<!-- -----------footer---------- -->
+<div class="footer-1">
+    <div class="container">
+        <div class="row">
+            <p id="para20"> ASK-ME is a social questions & <br>
+                answers engine which will help <br> 
+                you establish your community <br>
+                and connect with other people. 
+            </p>
+
+            <div class="footer-2">
+                <h5 style="margin-left: 25px"> <big style="color: white"> About Us </big> </h5>
+                <ul>
+                    <li> Meet the Team </li>
+                    <li> About Us </li>
+                    <li> Blog </li>
+                    <li> Contact Us </li>
+                </ul>
+            </div>
+
+            <div class="footer-3">
+                <h5 style="margin-left: 25px"> <big style="color: white"> Legal Stuff </big> </h5>
+                <ul>
+                    <li> Terms of Use </li>
+                    <li> Privacy Policy </li>
+                    <li> Cookie Policy </li>
+                </ul>
+            </div>
+
+            <div class="footer-4">
+                <h5 style="margin-left: 25px"> <big style="color: white"> Help </big> </h5>
+                <ul>
+                    <li> Knowledge Base </li>
+                    <li> Support </li>
+                </ul>
+            </div>
+
+            <div class="footer-5">
+                <h5 style="margin-left: 25px"> <big style="color: white"> Follow </big> </h5>
+                <img src="follow1.jpg" height="28px">
+                <img src="follow2.jpg" height="28px">
+                <img src="follow3.jpg" height="28px">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
